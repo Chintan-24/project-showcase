@@ -218,8 +218,7 @@ hr {
     var(--primary-color) 60%,
     var(--primary-color-dark) 100%
   );
-  /* background-color: var(--primary-color); */
-  color: var(--font-color);
+  color: #000;
   padding: 1rem;
   border-bottom-left-radius: 1rem;
 }
