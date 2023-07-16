@@ -268,13 +268,14 @@ hr {
   margin: 3rem 0;
   display: flex;
   justify-content: center;
+
 }
 
 nav .items {
-  max-width: 600px;
+  /*max-width: 600px;*/
   display: flex;
   width: 100%;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 nav .items .item {
@@ -290,6 +291,7 @@ nav .items .item {
   font-weight: 600;
   cursor: pointer;
   transition: all 0.2s;
+  margin: 0 10px;
 }
 nav .items .active,
 nav .items .item:hover {
